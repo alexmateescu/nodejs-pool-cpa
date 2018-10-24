@@ -48,6 +48,16 @@
     "name": "Intense Coin",
     "mixIn": 1,
     "shortCode": "XAO"
+  },
+   "cpa": {
+    "funcFile": "./lib/coins/cpa.js",
+    "paymentFile": "./payment_systems/cpa.js",
+    "sigDigits": 1000000000,
+    "xmrTo": false,
+    "name": "CPACoin",
+    "mixIn": 1,
+    "shortCode": "CPA"
   }
+
 
 }

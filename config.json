@@ -1,9 +1,9 @@
 {
   "pool_id": 0,
-  "bind_ip": "127.0.0.1",
-  "hostname": "testpool.com",
-  "db_storage_path": "CHANGEME",
-  "coin": "itns",
+  "bind_ip": "192.168.21.160",
+  "hostname": "cpa.romining.farm",
+  "db_storage_path": "/home/alex/pool_db/",
+  "coin": "cpa",
   "mysql": {
     "connectionLimit": 20,
     "host": "127.0.0.1",
