@@ -1,0 +1,13 @@
+[Unit]
+Description=Bixbite Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/local/src/bixbite/build/release/bin/bixbited --rpc-bind-ip 127.0.0.1 --detach
+Restart=always
+User=bxbdaemon
+
+[Install]
+WantedBy=multi-user.target

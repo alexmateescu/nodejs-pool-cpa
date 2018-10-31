@@ -1,0 +1,13 @@
+[Unit]
+Description=Saronite Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/local/src/saronite/build/release/bin/saronited --rpc-bind-ip 127.0.0.1 --detach
+Restart=always
+User=xrndaemon
+
+[Install]
+WantedBy=multi-user.target
