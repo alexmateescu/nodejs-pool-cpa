@@ -125,5 +125,21 @@
     "name": "CPACoin",
     "mixIn": 0,
     "shortCode": "CPA"
+  },
+  "ccx": {
+    "funcFile": "./lib/coins/ccx.js",
+    "paymentFile": "./payment_systems/ccx.js",
+    "sigDigits": 1000000,
+    "name": "conceal",
+    "mixIn": 5,
+    "shortCode": "CCX"
+  },
+ "xmlc": {
+    "funcFile": "./lib/coins/xmlc.js",
+    "paymentFile": "./payment_systems/xmlc.js",
+    "sigDigits": 100000000,
+    "name": "AeonClassic",
+    "mixIn": 3,
+    "shortCode": "XMLC"
   }
 }
